@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: white;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+</style>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#toggle-plan").click(function(){
+    $(".hide-me").toggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<h1 style = "text-align: center;">EDGWARE UNITED FOOTBALL CLUB </h1>
+<p style = "text-align: center;"><img src="P5.jpg" alt="Edgware United Stadium" width="700" height="500"><br></p>
+<p style="text-align: center;color: rgb(42, 42, 251);">A CLUB OF GREAT AMBITION AND EXCELLENCE.</p>
+<p style="text-align:center;">STATION RD, EDGWARE HA8 7AW</p>
+<div class ="hide-me">
+<p style ="color :black;"> Edgware United Football Club was founded in 2026 with a simple aim: to bring together hardworking players who want to improve, compete and enjoy football. A new club needs a clear plan. This document explains what we want to achieve in our first two years, how we will build the team, and how we will become a respected part of our local community.</p>
+<h2>Year 1: Building the Foundations (2026/2027)</h2>
+<p>The first year is about creating a strong base. Winning matches is important, but the club's structure, values and reputation matter more at this stage.</p>
+<b>Registration and Recruitment:</b>
+We are recruiting players for the 2027/2028 season through our online registration form. Players of all abilities are welcome. In the first year, our target is to build one competitive senior squad of about 20 to 25 players, with a good balance of goalkeepers, defenders, midfielders and strikers. We will also hold open trial days so that anyone who is passionate about football has a fair chance to join.
+<b>Coaching Team :</b>
+Good coaching is the heart of a club. We will appoint a head coach, an assistant coach and a goalkeeping coach. All coaches will hold recognised qualifications and will complete safeguarding and first aid training. Our coaches will focus on teaching skills, fitness and teamwork, not only on results.
+<b>Training Programme :</b>
+The squad will train twice a week, with one match each weekend during the season. Sessions will include ball control, passing, tactics, fitness and small-sided games. We will also record each player's progress, so every player knows what to improve.
+<b>Club Identity :</b>
+We will create our club badge, kit and website, and we will build a presence on social media. A strong identity helps players feel proud to represent Edgware United and helps supporters recognise us.
+<h2>Year 2: Growing and Competing (2027/2028)</h2>
+<p>In the second year, we move from building to competing and growing.
+Competitive football.Our first full season will begin in 2027/2028. Our aim is to play regular league and cup matches, to show a good standard of discipline and fair play, and to finish the season in the top half of our league. We believe that steady improvement is better than short-term success, so we will judge ourselves on progress, not only on the league table.
+Youth development.After a successful first year, we plan to start youth teams.This gives young people in our area a place to learn football and gives our club a pipeline of future players. All youth sessions will follow strict safeguarding rules, and coaches will complete background checks.
+Player pathways.We want players to see a future at the club. Strong players will be able to move up from youth teams to the senior squad, and some players may become coaches, referees or volunteers.</p>
+<p>Everything we do is based on five values: </p>
+<b>Our Values :</b>
+    <p>Teamwork: we win and lose together.</p>
+    <p>Respect: for teammates, opponents, referees and supporters.</p>
+    <p>Determination: we work hard in every session and match.</p>
+    <p>Discipline: we arrive on time, prepare well and follow the rules.</p>
+    <p>Inclusion: players of every background, ability and gender are welcome.</p>
+
+<b>Community Involvement:</b>
+<p>A football club belongs to its community. During our first two years, we plan to: </p>
+<p>1.Run free “come and try” sessions for local children and adults. </p>
+<p>2.Work with local schools to offer football workshops.</p>
+<p>3.Hold at least one charity match each year.</p>
+<p>4.Invite local businesses to become sponsors and partners.</p>
+<p>5.Encourage volunteers to help with match days, social media and events.</p>
+<p>These activities will help us build a loyal group of supporters and show that our club cares about the area where it was created.</p>
+<b>Facilities and Equipment:</b>
+A new club must use its resources carefully. In the first year, we will rent a local pitch for training and matches, and we will buy essential equipment, such as balls, cones, bibs, goals, first aid kits and match kits. Our long-term hope is to find a regular home ground with changing rooms and a small space for supporters. We will review the facilities every six months and make improvements when money allows.
+<b>Finance and Management:</b>
+The club will be run by a small committee, including a chairperson, a secretary and a treasurer. Our income will come from registration fees, sponsorship, fundraising events and donations. All money will be recorded clearly, and we will share a simple financial summary with members every year. Honest and open management will help players, parents and sponsors trust us.
+<b>Player Wellbeing and Safety:</b>
+The health and safety of every player is our first priority. We will provide:
+<P>1.A qualified first aider at every training session and match.</P>
+<P>2.Clear rules on warm-ups, cool-downs and injury recovery.</P>
+<P>3.A safeguarding officer, so any worry can be reported safely.</P>
+<P>4.Support for the mental wellbeing of players, including a friendly and respectful club culture.</P>
+<p>Every player must complete a registration form with emergency contact details, so we can respond quickly if there is a problem.</p>
+<P>The first two years of Edgware United will not be about trophies alone. They will be about creating a strong foundation, a respectful team culture and a club that people in the community are proud of. We are looking for dedicated players, coaches and volunteers who want to be part of this journey from the very beginning. With teamwork, discipline and determination, we believe Edgware United can grow into a successful club for many years to come</p>
+</div>
+<button type ="button" id ="toggle-plan">Hide /show club plan</button>
+</body>
+</html>
+
+<html lang="en">
+<head>
+  <title>EDGWARE UNITED FOOTBALL CLUB</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="container-fluid p-5 bg-primary text-white text-center">
+<h1>EDGWARE UNITED FOOTBALL CLUB HISTORY</h1>
+<p>Founded in 2026, in a small town in England called Edgware, our football club was created with one goal: to bring together talented and hardworking players who want to improve, compete, and enjoy the game. We believe that football is about teamwork, respect, and determination.
+As a new club, we are building a strong team for the future. We welcome players of different abilities who are willing to work hard, learn new skills, and give their best in every match and training session. Our coaches are committed to helping every player develop both on and off the pitch.
+We are looking for dedicated players who want to be part of an exciting journey from the very beginning. If you are passionate about football and want to help build a successful club, we would love to hear from you.
+Join us today and become part of our story as we grow together and aim for success.</p> 
+</div>
+</body>
+</html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid mt-3">
+   
+  <div class="row">
+    <div class="col-sm-6 bg-primary text-white p-3">
+      Our vision is to become a respected and successful football club that inspires players, supporters, and the local community.We aim to create a positive environment where every player can develop their skills, build confidence, and enjoy the game. Through hard work, teamwork, and respect, we want to compete at the highest level possible while creating opportunities for future generations to be part of our club.
+    </div>
+    <div class="col-sm-6 bg-dark text-white p-3">
+      Our mission is to provide a welcoming and professional football environment where players of all abilities can improve their skills, enjoy the game, and reach their full potential. We are committed to promoting teamwork, discipline, respect, and fair play while building a strong connection with our local community. By working together, we aim to develop successful teams and create a club that everyone is proud to represent.
+    </div>
+  </div>
+</div>
+
+<h1 style="text-align: center;">We are Recruiting for the 2027/2028 football season !</h1>
+<h1 style = "color: blue; text-align: center;">Complete the form to register your interest</h1>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+
+  
+  <label for="datemin">Date of Birth after 2010-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2010-01-01"><br>
+<p style="color: blue;">Sex</p>
+  <input type="radio" id="Male" name="sex" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="sex" value="Female">
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Other" name="sex" value="Other">
+  <label for="Other">Other</label><br><br><br>
+
+  <p style="text-align: center;"><img src="P11.jpg" alt="Edgware Gym facility" width="500" height="400"><br></p>
+  <label for="Nationality">Nationality</label>
+  <select id="Nationality" name="Nationality">
+    <option value="Ghana">Ghana</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="Canada">Canada</option>
+    <option value="Australia">Australia</option>
+  </select><br><br>
+ <label for="email">Enter your email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="phone">Mobile phone number:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="07123456789" pattern="07[0-9]{9}" title ="Enter a 11-digit uk mobile number starting with 07,with no spaces, for example 07123456789" required><br><br>
+
+  <label for="Home-Address">Home Address:</label><br>
+  <input type="text" id="Home-Address" name="Home-Address"><br><br>
+
+  <label for="Post-Code">Post Code:</label><br>
+  <input type="text" id="Post-Code" name="Post-Code"><br>
+
+<p style="color:blue;">Location</p>
+<p style="color: blue;">Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Get your location</button>
+
+<p style="color: blue;" id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  try {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } catch(err) {
+    x.innerHTML = err;
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script><br>
+
+
+
+  <label for="Emergency-Contact">Emergency Contact:</label><br>
+  <input type="text" id="Emergency-Contact" name="Emergency-Contact"><br>
+
+  <P style = "color : blue ">What is your preferred position?</P>
+  <label for="Position">Position</label>
+  <select id="Position" name="Position">
+    <option value="Midfielder">Midfielder</option>
+    <option value="Defender">Defender</option>
+    <option value="Goalkeeper">Goalkeeper</option>
+    <option value="Striker">Striker</option>
+  </select><br><br>
+
+    <div class="mb-3 mt-3">
+      <label for="comment">Comments:</label><br>
+      <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</body>
+</html>
